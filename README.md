@@ -1,6 +1,10 @@
 # Gordon
 ![gordon.jpg](gordon.jpg)
 
+![build](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)
+![downloads](https://img.shields.io/badge/downloads-2.1M-brightgreen.svg)
+
 Ever wanted to get yelled at by Chef Ramsay whenever you inevitably fuck up
 your script or make a typo on the command line? Well now you can. 
 
