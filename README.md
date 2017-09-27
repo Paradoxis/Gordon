@@ -8,7 +8,7 @@ your script or make a typo on the command line? Well now you can.
 feel like a fucking donkey because you can't spell the command `quit` correctly.*
 
 ## Preview
-[![](https://img.youtube.com/vi/OT6i7RwEEB8/maxresdefault.jpg)](https://www.youtube.com/watch?v=OT6i7RwEEB8&feature=youtu.be)
+[![](https://img.youtube.com/vi/OT6i7RwEEB8/hqdefault.jpg)](https://www.youtube.com/watch?v=OT6i7RwEEB8&feature=youtu.be)
 
 ## Installation
 Screaming and swearing is just around the corner, just follow these simple steps:
