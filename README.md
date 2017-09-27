@@ -3,6 +3,7 @@
 ![build](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)
 ![downloads](https://img.shields.io/badge/downloads-2.1M-brightgreen.svg)
+![insults](https://img.shields.io/badge/insults-56-brightgreen.svg)
 
 ![gordon.jpg](gordon.jpg)
 
