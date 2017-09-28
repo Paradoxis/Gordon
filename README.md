@@ -22,6 +22,7 @@ Screaming and swearing is just around the corner, just follow these simple steps
 * Download all the insults from the `insults` directory
 * Place the contents of `gordon.sh` into your `~/.bash_profile`
 * Set the `GORDON_INSULTS` variable to the directory where you saved your insults
+* Install CoreUtils on mac to install gshuf utility. You can use homebrew and run: `brew install coreutils`
 
 That's it! Try messing up on the command line, and enjoy Chef Ramsay's insults.
 I even added a nifty little test script for you called `test.py`.
