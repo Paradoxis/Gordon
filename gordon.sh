@@ -3,7 +3,7 @@
 
 function gordon()
 {
-    if [[  $? != 0 ]]; then
+    if [[ $? != 0 && -d $GORDON_INSULTS ]]; then
         insult=$(ls $GORDON_INSULTS | gshuf -n1)
         afplay $GORDON_INSULTS/$insult &
         disown
