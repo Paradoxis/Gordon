@@ -9,7 +9,7 @@
 Ever wanted to get yelled at by Chef Ramsay whenever you inevitably fuck up
 your script or make a typo on the command line? Well now you can. 
 
-*Introducing: **Gordon for OS X**, the command line tool that will make you 
+*Introducing: **Gordon**, the command line tool for MacOS and Linux that will make you 
 feel like a fucking donkey because you can't spell the command `quit` correctly.*
 
 ## Preview
@@ -21,7 +21,9 @@ Screaming and swearing is just around the corner, just follow these simple steps
 * Download all the insults from the `insults` directory
 * Place the contents of `gordon.sh` into your `~/.bash_profile`
 * Set the `GORDON_INSULTS` variable to the directory where you saved your insults
-* Install CoreUtils on mac to install gshuf utility. You can use homebrew and run: `brew install coreutils`
+* Install the additional libraries:
+    * **Mac OSX:** `brew install coreutils`(Includes gshuf)
+    * **Linux:** `apt-get install mpv` (Sound library)
 
 That's it! Try messing up on the command line, and enjoy Chef Ramsay's insults.
 I even added a nifty little test script for you called `test.py`.

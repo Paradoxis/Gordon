@@ -4,9 +4,13 @@
 function gordon()
 {
     if [[ $? != 0 && -d $GORDON_INSULTS ]]; then
-        insult=$(ls $GORDON_INSULTS | gshuf -n1)
-        afplay $GORDON_INSULTS/$insult &
-        disown
+        if [ "$(uname)" == "Darwin" ]; then
+            insult=$(ls $GORDON_INSULTS | gshuf -n1)
+            afplay $GORDON_INSULTS/$insult & disown
+        elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+            insult=$(ls $GORDON_INSULTS | shuf -n 1)
+            mpv --really-quiet $GORDON_INSULTS/$insult & disown
+        fi
     fi
 }
 
